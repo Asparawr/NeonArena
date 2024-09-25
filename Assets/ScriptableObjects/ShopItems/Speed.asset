@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 897ebc1cd5700e749b0d56237caa565d, type: 3}
+  m_Name: Speed
+  m_EditorClassIdentifier: 
+  iconSprite: {fileID: 3286163911610860551, guid: 0b4eb00523f96454291573fc7aa9a20f, type: 3}
+  price: 200
+  rarity: 0
+  stackable: 1
+  movementSpeed: 0.1
+  maxHealth: 0
+  bulletSpeed: 0
+  damage: 0
+  fireRate: 0
+  size: 0
+  range: 0
+  bulletScale: 0
+  moneyMod: 0
+  bulletModList: []
+  rareChance: 0
+  epicChance: 0
+  legendaryChance: 0

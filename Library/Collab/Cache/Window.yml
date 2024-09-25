@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Editor/video-2013-03-09-17-02-51.mp4
+    - Assets/Editor/video-2013-03-09-17-02-51.mp4.meta
+    - Assets/Fonts/Death Star SDF.asset
+    - Assets/Fonts/Demode SDF.asset
+    - Assets/Fonts/Plasma01 SDF.asset
+    - Assets/LeanTween.meta
+    - Assets/LeanTween/Documentation.meta
+    - Assets/LeanTween/Documentation/assets.meta
+    - Assets/LeanTween/Documentation/assets/css.meta
+    - Assets/LeanTween/Documentation/assets/css/main.css
+    - Assets/LeanTween/Documentation/assets/css/main.css.meta
+    - Assets/LeanTween/Documentation/assets/favicon.ico
+    - Assets/LeanTween/Documentation/assets/favicon.ico.meta
+    - Assets/LeanTween/Documentation/assets/index.html
+    - Assets/LeanTween/Documentation/assets/index.html.meta
+    - Assets/LeanTween/Documentation/classes.meta
+    - Assets/LeanTween/Documentation/classes/LTBezierPath.html
+    - Assets/LeanTween/Documentation/classes/LTBezierPath.html.meta
+    - Assets/LeanTween/Documentation/classes/LTDescr.html
+    - Assets/LeanTween/Documentation/classes/LTDescr.html.meta
+    - Assets/LeanTween/Documentation/classes/LTEvent.html
+    - Assets/LeanTween/Documentation/classes/LTEvent.html.meta
+    - Assets/LeanTween/Documentation/classes/LTRect.html
+    - Assets/LeanTween/Documentation/classes/LTRect.html.meta
+    - Assets/LeanTween/Documentation/classes/LTSeq.html
+    - Assets/LeanTween/Documentation/classes/LTSeq.html.meta
+    - Assets/LeanTween/Documentation/classes/LTSpline.html
+    - Assets/LeanTween/Documentation/classes/LTSpline.html.meta
+    - Assets/LeanTween/Documentation/classes/LeanAudio.html
+    - Assets/LeanTween/Documentation/classes/LeanAudio.html.meta
+    - Assets/LeanTween/Documentation/classes/LeanAudioOptions.html
+    - Assets/LeanTween/Documentation/classes/LeanAudioOptions.html.meta
+    - Assets/LeanTween/Documentation/classes/LeanSmooth.html
+    - Assets/LeanTween/Documentation/classes/LeanSmooth.html.meta
+    - Assets/LeanTween/Documentation/classes/LeanTween.html
+    - Assets/LeanTween/Documentation/classes/LeanTween.html.meta
+    - Assets/LeanTween/Documentation/classes/LeanTweenType.html
+    - Assets/LeanTween/Documentation/classes/LeanTweenType.html.meta
+    - Assets/LeanTween/Documentation/classes/index.html
+    - Assets/LeanTween/Documentation/classes/index.html.meta
+    - Assets/LeanTween/Documentation/elements.meta
+    - Assets/LeanTween/Documentation/elements/index.html
+    - Assets/LeanTween/Documentation/elements/index.html.meta
+    - Assets/LeanTween/Documentation/index.html
+    - Assets/LeanTween/Documentation/index.html.meta
+    - Assets/LeanTween/Editor.meta
+    - Assets/LeanTween/Editor/LeanTweenDocumentationEditor.cs
+    - Assets/LeanTween/Editor/LeanTweenDocumentationEditor.cs.meta
+    - Assets/LeanTween/Framework.meta
+    - Assets/LeanTween/Framework/LTDescr.cs
+    - Assets/LeanTween/Framework/LTDescr.cs.meta
+    - Assets/LeanTween/Framework/LTDescrOptional.cs
+    - Assets/LeanTween/Framework/LTDescrOptional.cs.meta
+    - Assets/LeanTween/Framework/LTSeq.cs
+    - Assets/LeanTween/Framework/LTSeq.cs.meta
+    - Assets/LeanTween/Framework/LeanAudio.cs
+    - Assets/LeanTween/Framework/LeanAudio.cs.meta
+    - Assets/LeanTween/Framework/LeanSmooth.cs
+    - Assets/LeanTween/Framework/LeanSmooth.cs.meta
+    - Assets/LeanTween/Framework/LeanTest.cs
+    - Assets/LeanTween/Framework/LeanTest.cs.meta
+    - Assets/LeanTween/Framework/LeanTween.cs
+    - Assets/LeanTween/Framework/LeanTween.cs.meta
+    - Assets/LeanTween/Framework/LeanTween.dll.zip
+    - Assets/LeanTween/Framework/LeanTween.dll.zip.meta
+    - Assets/LeanTween/Framework/LeanTweenExt.cs
+    - Assets/LeanTween/Framework/LeanTweenExt.cs.meta
+    - Assets/LeanTween/License.txt
+    - Assets/LeanTween/License.txt.meta
+    - Assets/LeanTween/ReadMe.txt
+    - Assets/LeanTween/ReadMe.txt.meta
+    - Assets/Materials/damageParticle.mat
+    - Assets/Materials/damageParticle.mat.meta
+    - Assets/Materials/emptyCircleParticle.mat
+    - Assets/Materials/emptyCircleParticle.mat.meta
+    - Assets/Materials/emptySquareParticle.mat
+    - Assets/Materials/emptySquareParticle.mat.meta
+    - Assets/Materials/infinityParticle.mat
+    - Assets/Materials/infinityParticle.mat.meta
+    - Assets/Prefabs/UI/Backgrounds.prefab
+    - Assets/Prefabs/UI/Backgrounds.prefab.meta
+    - Assets/Prefabs/UI/MainMenuCanvas.prefab
+    - Assets/Prefabs/UI/MainMenuCanvas.prefab.meta
+    - Assets/Prefabs/UI/NonPostProcessedUICanvas.prefab
+    - Assets/Prefabs/UI/PostProcessedUICanvas.prefab
+    - Assets/Scenes/MenuTest.unity
+    - Assets/Scenes/MenuTest.unity.meta
+    - Assets/Scenes/TestScene.unity
+    - Assets/Scripts/MenuController.cs
+    - Assets/Scripts/MenuController.cs.meta
+    - Assets/Sprites/Icons/back.svg
+    - Assets/Sprites/Icons/back.svg.meta
+    - Assets/Sprites/Icons/home.svg
+    - Assets/Sprites/Icons/home.svg.meta
+    - Assets/Sprites/Icons/infinity.svg
+    - Assets/Sprites/Icons/infinity.svg.meta
+    - Assets/Sprites/Icons/play.svg
+    - Assets/Sprites/Icons/play.svg.meta
+    - Assets/Sprites/Icons/plus.svg
+    - Assets/Sprites/Icons/plus.svg.meta
+    - Assets/Sprites/damage.png
+    - Assets/Sprites/damage.png.meta
+    - Assets/Sprites/infinity.png
+    - Assets/Sprites/infinity.png.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/TagManager.asset
+    - 
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0

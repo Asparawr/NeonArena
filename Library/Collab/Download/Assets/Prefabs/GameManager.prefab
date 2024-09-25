@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2035507177386361260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1171095710433981689}
+  - component: {fileID: 7687221431624761841}
+  - component: {fileID: 1196497461}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1171095710433981689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035507177386361260}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.1900003, y: 1.7423222, z: 30}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7687221431624761841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035507177386361260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 060aac1ef19130741a8bb2ec8499fbdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  ShopUI: {fileID: 0}
+  moneyCount: {fileID: 0}
+  UIItems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  CurrentShopItems: []
+  ItemPool:
+  - {fileID: 11400000, guid: d8a3c3ad388b0db478d77c17070610fd, type: 2}
+  - {fileID: 11400000, guid: 5679b11167a5e474da49dca5ef3be015, type: 2}
+  - {fileID: 11400000, guid: 6cedd25817178bf44979d9586a5ec3e7, type: 2}
+  - {fileID: 11400000, guid: 21e30ed2c88b13e4ba62468a3ff6babc, type: 2}
+  - {fileID: 11400000, guid: 40b19e10fe63f944cbbc17d863d72e27, type: 2}
+  - {fileID: 11400000, guid: 68af2d9bd0d3faa4bbac4613ac87f68c, type: 2}
+  - {fileID: 11400000, guid: 2c024c7a686ef7a44ae28463e4372b4b, type: 2}
+  - {fileID: 11400000, guid: 2623d0c8cd17ddf48a3b1eaf1d39ece7, type: 2}
+  - {fileID: 11400000, guid: 57ea8dad96d610646b3202fcbaa38fd8, type: 2}
+  - {fileID: 11400000, guid: 0fdea06ba990e444e8a57861855c3ab2, type: 2}
+  commonItems: []
+  rareItems: []
+  epicItems: []
+  legendaryItems: []
+  rareChance: 20
+  epicChance: 10
+  legendaryChance: 3
+  commonColor: {r: 0.9150943, g: 0.78991634, b: 0.78991634, a: 0.78431374}
+  rareColor: {r: 0.4615461, g: 0.6603774, b: 0.25854397, a: 0.78431374}
+  epicColor: {r: 0.764151, g: 0.24150053, b: 0.68078864, a: 0.78431374}
+  legendaryColor: {r: 0.8207547, g: 0.40522546, b: 0.127759, a: 0.78431374}
+--- !u!114 &1196497461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035507177386361260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10270d967595cc84f965b7030af79d4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pauseText: {fileID: 0}
+  pauseMenu: {fileID: 0}
+  unPausable: 0

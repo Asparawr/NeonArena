@@ -1,0 +1,1109 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.16f1 (5fa502fca597) revision 6268162'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1083; Version 2009; 64bit' Language: 'en' Physical Memory: 16338 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/jeder/NeonArena
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55057
+Successfully changed project path to: C:/Users/jeder/NeonArena
+C:/Users/jeder/NeonArena
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 79.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.16f1 (5fa502fca597)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jeder/NeonArena/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     8079 MB
+    Driver:   27.21.14.6172
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002289 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 80.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.758 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1759ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (447ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (217ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007162 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.358 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1358ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1121ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (578ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (360ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2894 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.5 MB.
+System memory in use after: 138.7 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 3340.
+Total: 6.614700 ms (FindLiveObjects: 0.216800 ms CreateObjectMapping: 0.121500 ms MarkObjects: 6.245600 ms  DeleteObjects: 0.029700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Enemy/DeathParticleEffects/BigCircleExplodingParticle.prefab
+  artifactKey: Guid(bf5197b02d47bb249aa09000f87fbbe7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Enemy/DeathParticleEffects/BigCircleExplodingParticle.prefab using Guid(bf5197b02d47bb249aa09000f87fbbe7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6b3516064150ee8af5bbaef72029d121') in 0.107544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/LeanTween/Framework/LeanTween.dll.zip
+  artifactKey: Guid(ffeadda6aaa064923a3f7e28ff26afb1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Framework/LeanTween.dll.zip using Guid(ffeadda6aaa064923a3f7e28ff26afb1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7867a1f5ff3a6497cf76d3d5fe5e24be') in 0.013053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Scripts/ScriptsEnabler.cs
+  artifactKey: Guid(8728c92d4ec843746bf46ee9bc4a535e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/ScriptsEnabler.cs using Guid(8728c92d4ec843746bf46ee9bc4a535e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '957b9d1b2f4769e09c3e4f3be1c6021e') in 0.016336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Sprites/Vectors/filledCircle.svg
+  artifactKey: Guid(383609378e95b1d40901a2c95b80a027) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/Vectors/filledCircle.svg using Guid(383609378e95b1d40901a2c95b80a027) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f18cd8086adad8d79859f2b760df5200') in 0.020968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '86c4cfacc16561e8d2dc20c19d810d5a') in 0.050605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/ScriptableObjects/Enemies/FollowingCircle.asset
+  artifactKey: Guid(51f4cb0fbf0be1e4188c4a450eec42ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ScriptableObjects/Enemies/FollowingCircle.asset using Guid(51f4cb0fbf0be1e4188c4a450eec42ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3fa31a588b50e358ebb01e3c7a169a00') in 0.005423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/ScriptableObjects/Enemies/BigFollowingCircle.asset
+  artifactKey: Guid(1ec355208e6a23249ac35f915c9e8afa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ScriptableObjects/Enemies/BigFollowingCircle.asset using Guid(1ec355208e6a23249ac35f915c9e8afa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bd762371ba4e3cb718e7804330c7c605') in 0.009337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/LeanTween/Documentation/classes/LTBezierPath.html
+  artifactKey: Guid(f7b721e4275c14b53a73241b9d0b256f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Documentation/classes/LTBezierPath.html using Guid(f7b721e4275c14b53a73241b9d0b256f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f4bc0eb526b5395d22b5c332bef55a61') in 0.012960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/LeanTween/Framework/LeanAudio.cs
+  artifactKey: Guid(52e41e970d9353942b27458440bec9eb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Framework/LeanAudio.cs using Guid(52e41e970d9353942b27458440bec9eb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b70c9dcb026482f4bdd446a4e224e7fc') in 0.004401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Prefabs/UI/MainMenuCanvas.prefab
+  artifactKey: Guid(d019c2c796b31cb4fbba8285cffa6f93) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/UI/MainMenuCanvas.prefab using Guid(d019c2c796b31cb4fbba8285cffa6f93) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bcf26bf3e0fac4c003f827b3d0c63576') in 0.004178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Prefabs/Enemy/BasicShapes/DashingSquare.prefab
+  artifactKey: Guid(16c34742ba93c684fbe4f0de4524e83e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Enemy/BasicShapes/DashingSquare.prefab using Guid(16c34742ba93c684fbe4f0de4524e83e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6dd384d4e0d5fec965c0ad9d14ff1876') in 0.005608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Prefabs/Enemy/CombinedShapes/CombinedFollowingCircle.prefab
+  artifactKey: Guid(ac793c75182244f49a3b2a25a3e475aa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Enemy/CombinedShapes/CombinedFollowingCircle.prefab using Guid(ac793c75182244f49a3b2a25a3e475aa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'cc837e67d49539290be231ebb89a4908') in 0.005737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprites/Icons/moneyInvestment.svg
+  artifactKey: Guid(fe419958439a8c146a25a60f016497f2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/Icons/moneyInvestment.svg using Guid(fe419958439a8c146a25a60f016497f2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '105cbe35451e86d78b94410a5ad79ff8') in 0.007680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Fonts/Death Star SDF.asset
+  artifactKey: Guid(4cea2156a5f40a6448e67d1bf6a1afac) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Fonts/Death Star SDF.asset using Guid(4cea2156a5f40a6448e67d1bf6a1afac) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '68e7fdad1dc7e532ec989a8424fa59cb') in 0.023562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Materials/circleParticle.mat
+  artifactKey: Guid(1ed385ad32976dd49a52a59c28fe71fc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/circleParticle.mat using Guid(1ed385ad32976dd49a52a59c28fe71fc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '850c383b5201f90694212b71a06abc90') in 0.007664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Scripts/Enemy/EnemyFollowing.cs
+  artifactKey: Guid(0cc05ac9ecca4bc478aab93fb0c440a5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Enemy/EnemyFollowing.cs using Guid(0cc05ac9ecca4bc478aab93fb0c440a5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '43c90e7486f6638995759c250aacde33') in 0.004099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e3a32dfc5649c2a3455029675f25916a') in 0.014259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/LeanTween/Documentation/assets/css/main.css
+  artifactKey: Guid(f2e6f2786cebb4eb8945b46000f02d18) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Documentation/assets/css/main.css using Guid(f2e6f2786cebb4eb8945b46000f02d18) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '83266fa1743a6b058f8b7ec88cf99b24') in 0.016343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Sprites/Icons/play.svg
+  artifactKey: Guid(cf773f58a80a4674ba62b78f8bad8b03) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/Icons/play.svg using Guid(cf773f58a80a4674ba62b78f8bad8b03) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '979cfe7b1461283ebb018e6903de19d4') in 0.006052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Scripts/Player/PlayerStats.cs
+  artifactKey: Guid(423efe8bba643be41955309a2284d8c8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Player/PlayerStats.cs using Guid(423efe8bba643be41955309a2284d8c8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '69fe73816a3b33c2412a890f7db5bc1f') in 0.005538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Scripts/PauseController.cs
+  artifactKey: Guid(10270d967595cc84f965b7030af79d4c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/PauseController.cs using Guid(10270d967595cc84f965b7030af79d4c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9379fe7747aac3ebc6fb6ff2766eae85') in 0.006018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sprites/Icons/speed.svg
+  artifactKey: Guid(0b4eb00523f96454291573fc7aa9a20f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/Icons/speed.svg using Guid(0b4eb00523f96454291573fc7aa9a20f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1611843183515392dfacb7bdb16046c1') in 0.007258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Prefabs/Enemy/DeathParticleEffects/SmallSquare.prefab
+  artifactKey: Guid(1e3d2c501b6011d4eb777e7e40185159) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Enemy/DeathParticleEffects/SmallSquare.prefab using Guid(1e3d2c501b6011d4eb777e7e40185159) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0a9c69b0b8161ff18297fa920f8a781a') in 0.004756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Scripts/UIControllers/UIHealthController.cs
+  artifactKey: Guid(fea617e632ad76c48be45cc96f760159) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/UIControllers/UIHealthController.cs using Guid(fea617e632ad76c48be45cc96f760159) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bd29d4167e5486a12715526f8039c041') in 0.006512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Sprites/Icons/back.svg
+  artifactKey: Guid(0d55a25abc2948648ab0b35ca9d68215) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/Icons/back.svg using Guid(0d55a25abc2948648ab0b35ca9d68215) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ded091d948c2fea8e1b14d2ee4d91e34') in 0.007812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/LeanTween/Documentation/assets/favicon.ico
+  artifactKey: Guid(751c9ec47ccc246ae9845f7503545585) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Documentation/assets/favicon.ico using Guid(751c9ec47ccc246ae9845f7503545585) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '01879cc96c1d434310f0f76f3003fa38') in 0.013980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Prefabs/Enemy/CombinedShapes/CombinedRotatingFollowingCircle.prefab
+  artifactKey: Guid(d5f58c326776822439545497000faae7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Enemy/CombinedShapes/CombinedRotatingFollowingCircle.prefab using Guid(d5f58c326776822439545497000faae7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7c610246b75a56b5651e86326192e04c') in 0.008206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Prefabs/Enemy/CombinedShapes/FollowingCircleSpawner.prefab
+  artifactKey: Guid(848c05bc5151a7b438048839c8c3853a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Enemy/CombinedShapes/FollowingCircleSpawner.prefab using Guid(848c05bc5151a7b438048839c8c3853a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '660d9ef30500cfcc86f16942321c493d') in 0.006936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/LeanTween/Editor/LeanTweenDocumentationEditor.cs
+  artifactKey: Guid(52fea17a2d56d46afa0d6cb52e2a4335) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Editor/LeanTweenDocumentationEditor.cs using Guid(52fea17a2d56d46afa0d6cb52e2a4335) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b1eafd759a11567ad3cb1776812bad87') in 0.006036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/LeanTween/Framework/LTSeq.cs
+  artifactKey: Guid(6c88dbe4cdd9944f198e9796ee394c86) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Framework/LTSeq.cs using Guid(6c88dbe4cdd9944f198e9796ee394c86) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2d47af1bfffe265553b991b9d8888f46') in 0.007060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Prefabs/Border.prefab
+  artifactKey: Guid(4750e9102f159dd41bae8ec9ea6f3cdc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Border.prefab using Guid(4750e9102f159dd41bae8ec9ea6f3cdc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '52cd2d98b3e48566aea32db8b33ae373') in 0.006138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Prefabs/Enemy/BasicShapes/FollowingCircle.prefab
+  artifactKey: Guid(246a9d5aa405e7840bebbb2c1cc20dff) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Enemy/BasicShapes/FollowingCircle.prefab using Guid(246a9d5aa405e7840bebbb2c1cc20dff) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f8d86e8d426e8824d292ee506d194984') in 0.006228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/ScriptableObjects/Enemies/FollowingCircleSpawner.asset
+  artifactKey: Guid(63a097a9d5fa0b54dbe633c17d0939cc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ScriptableObjects/Enemies/FollowingCircleSpawner.asset using Guid(63a097a9d5fa0b54dbe633c17d0939cc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '931356d11f4a2dace994b6b4c1cecafb') in 0.005505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Scripts/PopupController.cs
+  artifactKey: Guid(5025e9209175f4f4daf91d7f832bd34a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/PopupController.cs using Guid(5025e9209175f4f4daf91d7f832bd34a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8d379b17f75aaace7982554c5536fc48') in 0.006357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/LeanTween/Documentation/classes/LTRect.html
+  artifactKey: Guid(b7ee5979c5f5f428d9c8735d84e09421) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Documentation/classes/LTRect.html using Guid(b7ee5979c5f5f428d9c8735d84e09421) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3e06d307052b6c804288227e2fc7e4e8') in 0.004449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Materials/emptySquareParticle.mat
+  artifactKey: Guid(d74896ac598f7fe4398e8362c596fc64) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/emptySquareParticle.mat using Guid(d74896ac598f7fe4398e8362c596fc64) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a2400962f87be646bbb5add2515a692a') in 0.004946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Scripts/Enemy/EnemyDashing.cs
+  artifactKey: Guid(eb4a088d27c7c9446b9a018bdf705498) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Enemy/EnemyDashing.cs using Guid(eb4a088d27c7c9446b9a018bdf705498) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b980f2f8defcf50a2d0621a0901f858f') in 0.004555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/LeanTween/Framework/LeanTween.cs
+  artifactKey: Guid(9c2f4b27196f84954b44753aaac214bb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Framework/LeanTween.cs using Guid(9c2f4b27196f84954b44753aaac214bb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0638f20a57d22871acb1345198f7e144') in 0.006317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/PhysicsMaterials/Enemy.physicsMaterial2D
+  artifactKey: Guid(52ef4115aa6bee849a565983b6f575f4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PhysicsMaterials/Enemy.physicsMaterial2D using Guid(52ef4115aa6bee849a565983b6f575f4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a3365b899d59c00191683fcf1e6a0fcc') in 0.007347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/LeanTween/Framework/LTDescrOptional.cs
+  artifactKey: Guid(c1ba8f1ef97134cb39b52ae26678db63) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Framework/LTDescrOptional.cs using Guid(c1ba8f1ef97134cb39b52ae26678db63) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e81ae0c1bd9098ce4ad328e4e3148e9e') in 0.005248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Materials/infinityParticle.mat
+  artifactKey: Guid(4f0ef6f2b0023af47a3aac2ef012af5f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/infinityParticle.mat using Guid(4f0ef6f2b0023af47a3aac2ef012af5f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '476bc744a5ddeb009deb2869afc4bc9a') in 0.004214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Prefabs/Enemy/BasicShapes/SmallDashingSquare.prefab
+  artifactKey: Guid(f5273cadf8d9da344ad2276336049b6b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Enemy/BasicShapes/SmallDashingSquare.prefab using Guid(f5273cadf8d9da344ad2276336049b6b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '95b21095d392f192328b651f5217fca7') in 0.007644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/LeanTween/Framework/LTDescr.cs
+  artifactKey: Guid(381c8d6fb1acdc348870a7147bc98723) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Framework/LTDescr.cs using Guid(381c8d6fb1acdc348870a7147bc98723) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'cc6474b66ad8b6448bd996d88152a3cb') in 0.004278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/LeanTween/Documentation/classes/LeanSmooth.html
+  artifactKey: Guid(e988e3f0c183c44c29adbd5e82d6fd87) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Documentation/classes/LeanSmooth.html using Guid(e988e3f0c183c44c29adbd5e82d6fd87) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0f64858dc406fc05d1179c9aa9ff1c0d') in 0.004700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/LeanTween/Framework/LeanTweenExt.cs
+  artifactKey: Guid(5dbe851e9c0814f1d8f514ecf70f675d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Framework/LeanTweenExt.cs using Guid(5dbe851e9c0814f1d8f514ecf70f675d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd4045b3ee3e0dd29c753b9b951480aed') in 0.005801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/LeanTween/Documentation/index.html
+  artifactKey: Guid(78eeb9616e21d4178b574871040d7fa0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Documentation/index.html using Guid(78eeb9616e21d4178b574871040d7fa0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b2dc1a7503fddef369f5d71b2dc61105') in 0.004450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Prefabs/UI/PlayerDamagePopup.prefab
+  artifactKey: Guid(0abf512e4d4c7b74c89d379de83cef7b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/UI/PlayerDamagePopup.prefab using Guid(0abf512e4d4c7b74c89d379de83cef7b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8bd4a97c9917ba3865a573e2f191adfb') in 0.004975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/LeanTween/Documentation/classes/LeanTweenType.html
+  artifactKey: Guid(85c97d3850f59444cb0751b3bc40b06d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Documentation/classes/LeanTweenType.html using Guid(85c97d3850f59444cb0751b3bc40b06d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f6682b530ee6b0e80331d89c1cbd2a35') in 0.005436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/LeanTween/Documentation/classes/LeanAudio.html
+  artifactKey: Guid(ddb683830b7524ebb8b302202c645c65) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Documentation/classes/LeanAudio.html using Guid(ddb683830b7524ebb8b302202c645c65) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '83f5680d6a4b811a7c7992717c98e4b2') in 0.004243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/LeanTween/Framework/LeanTest.cs
+  artifactKey: Guid(82464f26ca2ba284a8f92f51248c574a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Framework/LeanTest.cs using Guid(82464f26ca2ba284a8f92f51248c574a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'fcd1ea2ac3aa37b557da37a4986ac96e') in 0.004317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Sprites/Icons/curvedUpArrow.svg
+  artifactKey: Guid(11c0673c762015743909ea29107a7558) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/Icons/curvedUpArrow.svg using Guid(11c0673c762015743909ea29107a7558) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '79b9c86eea205e8770803e902a18e948') in 0.007142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Materials/squareParticle.mat
+  artifactKey: Guid(850545955e28a2345b2e7cdac32cf910) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/squareParticle.mat using Guid(850545955e28a2345b2e7cdac32cf910) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0943849d1114209f23fae4f2451f55e2') in 0.004598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/LeanTween/Documentation/classes/index.html
+  artifactKey: Guid(a23cc63a765c44c9c82fb33b1ecb455f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Documentation/classes/index.html using Guid(a23cc63a765c44c9c82fb33b1ecb455f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd25121e565847861d35c36b39e04fc9f') in 0.004077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Prefabs/Enemy/BasicShapes/BigFollowingCircle.prefab
+  artifactKey: Guid(d9326ab2a02a5b147b395d0585c08fcf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Enemy/BasicShapes/BigFollowingCircle.prefab using Guid(d9326ab2a02a5b147b395d0585c08fcf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '203532af055ff7d9c16f5085821b3744') in 0.005834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Fonts/Plasma01 SDF.asset
+  artifactKey: Guid(ad9bb110243885348aa7d451a4553a43) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Fonts/Plasma01 SDF.asset using Guid(ad9bb110243885348aa7d451a4553a43) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9193d161ecb20fe68491123b74254075') in 0.023097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Prefabs/Enemy/DeathParticleEffects/CircleExplodingParticle.prefab
+  artifactKey: Guid(e100db2b3c9970a4792dd9f99a6f7eb5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Enemy/DeathParticleEffects/CircleExplodingParticle.prefab using Guid(e100db2b3c9970a4792dd9f99a6f7eb5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '30be2e110ed646258e8a3768b080f2e0') in 0.005399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Scripts/FixedJoystick.cs
+  artifactKey: Guid(db23dcd9294599043af0f5461cebac29) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/FixedJoystick.cs using Guid(db23dcd9294599043af0f5461cebac29) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'df3160d07b43e5ce811f783beee7656c') in 0.004506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Scripts/Player/PlayerController.cs
+  artifactKey: Guid(e534d015735f7ee4892518588d44e2bf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Player/PlayerController.cs using Guid(e534d015735f7ee4892518588d44e2bf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '009976ceeca6122eae6f0e383eedd6e5') in 0.004562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Sprites/Icons/bulletSpeed.svg
+  artifactKey: Guid(2c8d8a8b65386ac4d82d46b6424d843d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/Icons/bulletSpeed.svg using Guid(2c8d8a8b65386ac4d82d46b6424d843d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9223823ebd5801dc210f27f06e2f2179') in 0.006078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Prefabs/PlayerBullet.prefab
+  artifactKey: Guid(708737ee8b4ef144ea3662fcf2b67414) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/PlayerBullet.prefab using Guid(708737ee8b4ef144ea3662fcf2b67414) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b4b13c15736c22c1ec183a16802a7554') in 0.005385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Scripts/Enemy/EnemyMoveTowards.cs
+  artifactKey: Guid(66c0126ffe2cf7a409ba0439fa44937c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Enemy/EnemyMoveTowards.cs using Guid(66c0126ffe2cf7a409ba0439fa44937c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9d1508ce4105a5c5f22039203cddc84d') in 0.004603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Scripts/Enemy/CombinedEnemies/CombinedWithCenterController.cs
+  artifactKey: Guid(abd4caf701fe9274fb1b27d3f783c981) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Enemy/CombinedEnemies/CombinedWithCenterController.cs using Guid(abd4caf701fe9274fb1b27d3f783c981) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0f4d875ba72f77f7e9a56aca5728b15b') in 0.005514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/LeanTween/ReadMe.txt
+  artifactKey: Guid(f1e0da947b69648fdb1884d602088d92) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/ReadMe.txt using Guid(f1e0da947b69648fdb1884d602088d92) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '51c3a962bb269a0754a272715a56a5b9') in 0.017931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_plasma-alpha-[2.0].mat
+  artifactKey: Guid(fe08f620c4f310f448ea6e3552e8f160) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_plasma-alpha-[2.0].mat using Guid(fe08f620c4f310f448ea6e3552e8f160) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '130aca1f80426a10fae5cdf07d761815') in 0.007602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Textures/Particles/Spritesheets/tex_vfx-inf_particle_spritesheet_embers5.png
+  artifactKey: Guid(70a44e74accfe1146ae84dbfa190ed7e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Textures/Particles/Spritesheets/tex_vfx-inf_particle_spritesheet_embers5.png using Guid(70a44e74accfe1146ae84dbfa190ed7e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4d897033b8844fa6c40cf3bb4986f332') in 0.084933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/LeanTween/Documentation/elements/index.html
+  artifactKey: Guid(f6a53cd107c1f4d5498ea9c736e3a650) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Documentation/elements/index.html using Guid(f6a53cd107c1f4d5498ea9c736e3a650) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0c4423153bf54786888233ff0d0b67e2') in 0.004599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Prefabs/Enemy/CombinedShapes/CombinedDashingSquare.prefab
+  artifactKey: Guid(fc22a7db231b8bf4187acd0f7f6b1556) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Enemy/CombinedShapes/CombinedDashingSquare.prefab using Guid(fc22a7db231b8bf4187acd0f7f6b1556) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd5771195fc64badd6b20dd744d5ce8b6') in 0.004823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Prefabs/UI/PostProcessedUICanvas.prefab
+  artifactKey: Guid(ab74359983bd015468d7e021d4324568) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/UI/PostProcessedUICanvas.prefab using Guid(ab74359983bd015468d7e021d4324568) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '41c61325803bff8c4f4aa253b4acaf72') in 0.005653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/SpriteShape/LineShape.asset
+  artifactKey: Guid(ac1bdba43df46894caf8c476d55e7100) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SpriteShape/LineShape.asset using Guid(ac1bdba43df46894caf8c476d55e7100) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '417f2010353521e7759d9cec7ac4a5f6') in 0.010298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/ScriptableObjects/Enemies/DashingSuare.asset
+  artifactKey: Guid(14e4270b67814a849ac796083e710958) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ScriptableObjects/Enemies/DashingSuare.asset using Guid(14e4270b67814a849ac796083e710958) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '97f3b08e49128093e115b44491420213') in 0.005104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Sprites/mat_vfx-inf_particle_sprite_fractal2-alpha-[1.0].mat
+  artifactKey: Guid(4742e720a8c578344bd8a77a3703a0a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Sprites/mat_vfx-inf_particle_sprite_fractal2-alpha-[1.0].mat using Guid(4742e720a8c578344bd8a77a3703a0a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '786e7295f6cb44f47503cf2dc8634d1f') in 0.008556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/_Common/Materials/Demos/mat_cmn_demo_plane.mat
+  artifactKey: Guid(64a9f627478db874e9558f816d1a6ec2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/_Common/Materials/Demos/mat_cmn_demo_plane.mat using Guid(64a9f627478db874e9558f816d1a6ec2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '53f909d434f965cf147ca1b7ceb216dd') in 0.007223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/PhysicsMaterials/Player.physicsMaterial2D
+  artifactKey: Guid(cb8c8fffe54f01841acdbb1c1e989b6a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PhysicsMaterials/Player.physicsMaterial2D using Guid(cb8c8fffe54f01841acdbb1c1e989b6a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '61c0f77132f404cdecbf1f586f6dfb63') in 0.004771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Prefabs/Enemy/DeathParticleEffects/SmallCircleExplodingParticle.prefab
+  artifactKey: Guid(f0bf2af6c3fa79c43a9e485b37ee1f6a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Enemy/DeathParticleEffects/SmallCircleExplodingParticle.prefab using Guid(f0bf2af6c3fa79c43a9e485b37ee1f6a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ba25bb32458674dc11052c12df8bb365') in 0.007080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_blast2-mb-add-[1.0].mat
+  artifactKey: Guid(2551c4cc8c68e3247afe6de65d8d244b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_blast2-mb-add-[1.0].mat using Guid(2551c4cc8c68e3247afe6de65d8d244b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6fe0e5fd461c2f33accf84372c984d1d') in 0.006209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Scripts/Enemy/BasicEnemy.cs
+  artifactKey: Guid(3aefe37283797f94dbf6d74dbfaf8ad7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Enemy/BasicEnemy.cs using Guid(3aefe37283797f94dbf6d74dbfaf8ad7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2c444b9119f4ea2169311b2032e95568') in 0.006241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Scripts/RotateAtSpeed.cs
+  artifactKey: Guid(cf20e67c9f96a5640929fc16c0225c15) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/RotateAtSpeed.cs using Guid(cf20e67c9f96a5640929fc16c0225c15) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c7c9a2ccb44eb30369e59a78299f017c') in 0.005889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/LeanTween/Documentation/classes/LTSeq.html
+  artifactKey: Guid(c2208e3213ef84ee28cb1745e7eb9b26) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Documentation/classes/LTSeq.html using Guid(c2208e3213ef84ee28cb1745e7eb9b26) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e457e661cac90b6eca0612763ecef3ff') in 0.004836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Prefabs/GameManager.prefab
+  artifactKey: Guid(672fd36aafaa009408107a0351b68b89) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/GameManager.prefab using Guid(672fd36aafaa009408107a0351b68b89) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '607374f43f1f050e7b1e0d21b474f417') in 0.004156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Sprites/damage.png
+  artifactKey: Guid(f536b69997dc57f4ab91a6b9b2d16237) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/damage.png using Guid(f536b69997dc57f4ab91a6b9b2d16237) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '051e7b9f56eb7097e357bf741c32cbb0') in 0.061783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Sprites/infinity.png
+  artifactKey: Guid(d34a4c8879f7e1f4eabaf95398ec4895) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/infinity.png using Guid(d34a4c8879f7e1f4eabaf95398ec4895) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c8e692e35ed8c37ff63bdbad848f0ad9') in 0.047755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/LeanTween/Documentation/assets/index.html
+  artifactKey: Guid(395ceea41819e494b8fe14c2e7b05a00) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Documentation/assets/index.html using Guid(395ceea41819e494b8fe14c2e7b05a00) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8b79a2163883488e2f125908b39a9683') in 0.004646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Scripts/ParticleSpawner.cs
+  artifactKey: Guid(cfcee03194f952046ab72d44a518434d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/ParticleSpawner.cs using Guid(cfcee03194f952046ab72d44a518434d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '153c0903a0120452b9f9ea1880e0fe4b') in 0.006076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Scripts/Player/PlayerBulletStats.cs
+  artifactKey: Guid(4d99797f26ac1364abc8147a18f1d6a6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Player/PlayerBulletStats.cs using Guid(4d99797f26ac1364abc8147a18f1d6a6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3130090bec9c691fff6d9d3e7cfb75b2') in 0.004742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Sprites/Icons/home.svg
+  artifactKey: Guid(15c1e3035deeac6458c2ace46435fcc0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/Icons/home.svg using Guid(15c1e3035deeac6458c2ace46435fcc0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c0741d14b6f7c51d1f0883b23e0a14ca') in 0.006484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/LeanTween/Documentation/classes/LTEvent.html
+  artifactKey: Guid(2b8203605b4454b009a6fc1e269a8d50) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Documentation/classes/LTEvent.html using Guid(2b8203605b4454b009a6fc1e269a8d50) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '72af2da605c51c9a2d865570a53edd80') in 0.005761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/PhysicsMaterials/Border.physicsMaterial2D
+  artifactKey: Guid(d8f8e7bdd020c0344a9a4edfd0939839) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/PhysicsMaterials/Border.physicsMaterial2D using Guid(d8f8e7bdd020c0344a9a4edfd0939839) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '223fd644d15a84cc4ecabe05952a9831') in 0.005934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Textures/particleDot.png
+  artifactKey: Guid(5f1334c4af9c3fa4287701596cc6517c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/particleDot.png using Guid(5f1334c4af9c3fa4287701596cc6517c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '242d85eee4720ea69c81251938880d34') in 0.005757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Prefabs/Loop/pf_vfx-inf_psys_demo_loop_fire5.prefab
+  artifactKey: Guid(35c76a112b254f14585b3b9fc5291371) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Prefabs/Loop/pf_vfx-inf_psys_demo_loop_fire5.prefab using Guid(35c76a112b254f14585b3b9fc5291371) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6eaed44eef42aa5b4c7289f0155ccb86') in 0.007280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Sprites/Icons/health.svg
+  artifactKey: Guid(fa338400b2d7bc24eae57ceba0b85f20) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/Icons/health.svg using Guid(fa338400b2d7bc24eae57ceba0b85f20) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ffbab4f4609a0a92eee385d5a5ce5717') in 0.009151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/AssetStore/Joystick Pack/Sprites/Handles/Handle_Plain.png
+  artifactKey: Guid(010a6e5305fa7004f89c5d317b7b47d4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Joystick Pack/Sprites/Handles/Handle_Plain.png using Guid(010a6e5305fa7004f89c5d317b7b47d4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b5edb4e6b276cfc082eb90c2e72a581c') in 0.011270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Prefabs/Oneshot/pf_vfx-inf_psys_demo_oneshot_explosion-large.prefab
+  artifactKey: Guid(805832771bf9f5f48bead8310975480e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Prefabs/Oneshot/pf_vfx-inf_psys_demo_oneshot_explosion-large.prefab using Guid(805832771bf9f5f48bead8310975480e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '68537e4c4c26d7f695008f39c781eeaf') in 0.006867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Sprites/Vectors/filledSquare.svg
+  artifactKey: Guid(d0406d54226ad2941bea48d6726146d0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/Vectors/filledSquare.svg using Guid(d0406d54226ad2941bea48d6726146d0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1568a5873c473c303230ef908ca9eb4a') in 0.008799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_blast-mb-add-[1.0].mat
+  artifactKey: Guid(e96db1d906424ca498647a102af53076) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_blast-mb-add-[1.0].mat using Guid(e96db1d906424ca498647a102af53076) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6773732f910aefb320caa061668d2a91') in 0.008048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Prefabs/Loop/pf_vfx-inf_psys_demo_loop_afterglow-add.prefab
+  artifactKey: Guid(8638ab24b8ff98148883ff19564bc0ba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Prefabs/Loop/pf_vfx-inf_psys_demo_loop_afterglow-add.prefab using Guid(8638ab24b8ff98148883ff19564bc0ba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '700873fa6e2abdcf4bb33b36a1f0dc23') in 0.006462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Sprites/mat_vfx-inf_particle_sprite_sketchRing-alpha-[2.0].mat
+  artifactKey: Guid(5d45652c710e00249a3eb2c768347e0a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Sprites/mat_vfx-inf_particle_sprite_sketchRing-alpha-[2.0].mat using Guid(5d45652c710e00249a3eb2c768347e0a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '078b1acc8a78d81768cceac8544caa2c') in 0.008201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Scripts/BorderColliderScaler.cs
+  artifactKey: Guid(434519305c1baf5408ccc893d54da1d0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/BorderColliderScaler.cs using Guid(434519305c1baf5408ccc893d54da1d0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4ee1231d7fde2a6f013bddda757f8860') in 0.005555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Materials/damageParticle.mat
+  artifactKey: Guid(898c2a447590e5643aaf2beb1bd5ad7c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/damageParticle.mat using Guid(898c2a447590e5643aaf2beb1bd5ad7c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3df6ae92a81ab1c001277edd4e87d045') in 0.006417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_fire-alpha-[2.0].mat
+  artifactKey: Guid(78613df8030a567438935acb01927a63) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_fire-alpha-[2.0].mat using Guid(78613df8030a567438935acb01927a63) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '236dd16b36efb41fdedbf9105ff111c5') in 0.009684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Prefabs/UI/Backgrounds.prefab
+  artifactKey: Guid(51f806139d3035848abe1287965633c9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/UI/Backgrounds.prefab using Guid(51f806139d3035848abe1287965633c9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '40333d97b825fdfcdf5b297f42e5cdc7') in 0.005468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Scripts/TurnController.cs
+  artifactKey: Guid(060aac1ef19130741a8bb2ec8499fbdb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/TurnController.cs using Guid(060aac1ef19130741a8bb2ec8499fbdb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '47dae345ba12e387468ef9e069322598') in 0.005334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_glowBubbles-addSoft-[3.0].mat
+  artifactKey: Guid(a4379e196b0fcf44f93b625778772567) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_glowBubbles-addSoft-[3.0].mat using Guid(a4379e196b0fcf44f93b625778772567) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '01184bfb5abbf27ba1cc89f7eb3263f3') in 0.010324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Materials/emptyCircleParticle.mat
+  artifactKey: Guid(7f7ded77316c71e489acfce40e3bf5eb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/emptyCircleParticle.mat using Guid(7f7ded77316c71e489acfce40e3bf5eb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ce616d35427741db9a7ae22d0e1e8f22') in 0.005404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/ScriptableObjects/Enemies/SmallDashingSquare.asset
+  artifactKey: Guid(9eba95497cb2bc04d8b18865cbc6ed88) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ScriptableObjects/Enemies/SmallDashingSquare.asset using Guid(9eba95497cb2bc04d8b18865cbc6ed88) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ce2de8e253cfd5b14962af35a7983c3a') in 0.005167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/AssetStore/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png
+  artifactKey: Guid(c615706690ca87043ad593475e6db7ec) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png using Guid(c615706690ca87043ad593475e6db7ec) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '54c637b09ae19e08db86d5c7fc612442') in 0.012285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/LeanTween/Documentation/classes/LTDescr.html
+  artifactKey: Guid(728d9c45462a9409f8b8be1447f59e94) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Documentation/classes/LTDescr.html using Guid(728d9c45462a9409f8b8be1447f59e94) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '913d574e3cd050ad2cae4b718571e13d') in 0.004136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/ScriptableObjects/ShopItems/GlassCannon.asset
+  artifactKey: Guid(2623d0c8cd17ddf48a3b1eaf1d39ece7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ScriptableObjects/ShopItems/GlassCannon.asset using Guid(2623d0c8cd17ddf48a3b1eaf1d39ece7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9e7e08598bf2dcc0bf1a37b1ef383a80') in 0.007443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Sprites/mat_vfx-inf_particle_sprite_wisp-alpha-[3.0].mat
+  artifactKey: Guid(a8594892dc63d19438c43372fe82f300) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Sprites/mat_vfx-inf_particle_sprite_wisp-alpha-[3.0].mat using Guid(a8594892dc63d19438c43372fe82f300) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2c4c930d2d3aef18f84130c80d07ea8f') in 0.005960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_embers3-alpha-[3.0].mat
+  artifactKey: Guid(7fbe60929f150c046bc7f67f0bb28a8e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_embers3-alpha-[3.0].mat using Guid(7fbe60929f150c046bc7f67f0bb28a8e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9aba5d020724fd6d99dc8594134a3d25') in 0.006909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Prefabs/Enemy/BasicShapes/SmallFollowingCircle.prefab
+  artifactKey: Guid(16b736163428868449c04302ab9cded8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Enemy/BasicShapes/SmallFollowingCircle.prefab using Guid(16b736163428868449c04302ab9cded8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4c9d61799306d5253dffb48282b54847') in 0.004638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Scripts/MenuController.cs
+  artifactKey: Guid(7da6986cbf225bb47be76e2a3acb96e0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/MenuController.cs using Guid(7da6986cbf225bb47be76e2a3acb96e0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7d1aeb487ee7d9b674470af30a746e51') in 0.005086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/LeanTween/Documentation/classes/LTSpline.html
+  artifactKey: Guid(1adcbb4b77b884a4fb75bde98799d037) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Documentation/classes/LTSpline.html using Guid(1adcbb4b77b884a4fb75bde98799d037) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a690e078ed91908a2bb76c0f66610230') in 0.006285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/LeanTween/License.txt
+  artifactKey: Guid(e389e9bcd4f944c338327697bd209cad) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/License.txt using Guid(e389e9bcd4f944c338327697bd209cad) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'aae806e44272c1e66f94d1f6733b3756') in 0.004508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_hotCloud-colour-add-[2.0].mat
+  artifactKey: Guid(3e1effba9bf9dc0478831d75a9e7ba0b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_hotCloud-colour-add-[2.0].mat using Guid(3e1effba9bf9dc0478831d75a9e7ba0b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ef493b68431bb4e60c24f609e03c427b') in 0.007203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Prefabs/Oneshot/pf_vfx-inf_psys_demo_oneshot_fire.prefab
+  artifactKey: Guid(40276876051cfed47a5fd79b980364a6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Prefabs/Oneshot/pf_vfx-inf_psys_demo_oneshot_fire.prefab using Guid(40276876051cfed47a5fd79b980364a6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1705fbcec1caef7dd83fb76102cfd63f') in 0.007498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Prefabs/UI/EnemyDamagePopup.prefab
+  artifactKey: Guid(9c631512fe0649a4d835a618ef5ded25) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/UI/EnemyDamagePopup.prefab using Guid(9c631512fe0649a4d835a618ef5ded25) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7acfd8deb5241e67b399d0cc50f65970') in 0.005384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_explosion2-alpha-[1.0].mat
+  artifactKey: Guid(4c7d7250267b24b478c83e8f8a268ee6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_explosion2-alpha-[1.0].mat using Guid(4c7d7250267b24b478c83e8f8a268ee6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6022a691c8edc950fff2ceb0cf963810') in 0.008839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/ScriptableObjects/Enemies/CombinedRotatingFollowingCircle.asset
+  artifactKey: Guid(3f2e744fd7c3d4948b70890cf0c73708) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ScriptableObjects/Enemies/CombinedRotatingFollowingCircle.asset using Guid(3f2e744fd7c3d4948b70890cf0c73708) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e9008dbd941a52b9d34c7b89d99adb07') in 0.004583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/AssetStore/Joystick Pack/Sprites/Handles/Handle_Plain_Arrows.png
+  artifactKey: Guid(f353d42d1db27ff42b78b28efd86b316) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Joystick Pack/Sprites/Handles/Handle_Plain_Arrows.png using Guid(f353d42d1db27ff42b78b28efd86b316) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '02ad8d4800276125af91e275e62572a0') in 0.008169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Scripts/Enemy/EnemyStats.cs
+  artifactKey: Guid(850e18ae5423c214bb3d7010841a8396) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Enemy/EnemyStats.cs using Guid(850e18ae5423c214bb3d7010841a8396) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '52305f8e50611046dfc3601ee92f1a06') in 0.006368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Prefabs/Loop/pf_vfx-inf_psys_demo_loop_solara.prefab
+  artifactKey: Guid(faeeb00ec54cf834ca95fc3908a4f7bb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Prefabs/Loop/pf_vfx-inf_psys_demo_loop_solara.prefab using Guid(faeeb00ec54cf834ca95fc3908a4f7bb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ce49fda09ca6b2a88f02dc44ba51f488') in 0.010698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/LeanTween/Documentation/classes/LeanTween.html
+  artifactKey: Guid(beea01b16f84c4f18a168afa5800b612) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Documentation/classes/LeanTween.html using Guid(beea01b16f84c4f18a168afa5800b612) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8f415ee4eff2af81b7ad5abf1ce0d3cb') in 0.004126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Prefabs/Loop/pf_vfx-inf_psys_demo_loop_volcanic.prefab
+  artifactKey: Guid(4f7ce11c10ad2f34085ff44f724f1948) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Prefabs/Loop/pf_vfx-inf_psys_demo_loop_volcanic.prefab using Guid(4f7ce11c10ad2f34085ff44f724f1948) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '35d310e819a8a621d030c1c6e09ebd26') in 0.006183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sprites/Icons/plus.svg
+  artifactKey: Guid(5bf9ed9dc702c9f4a901dc4ffd78765c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/Icons/plus.svg using Guid(5bf9ed9dc702c9f4a901dc4ffd78765c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '865cfb6174c9bc0f3ffcd86ecc0619a2') in 0.005483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '408ed6d5b9ce251a040cabcafc14ce35') in 0.035305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Prefabs/Enemy/DeathParticleEffects/SquareExplodingParticle.prefab
+  artifactKey: Guid(ddeadc675fcb86e4cbfd63d6bcdd037f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Enemy/DeathParticleEffects/SquareExplodingParticle.prefab using Guid(ddeadc675fcb86e4cbfd63d6bcdd037f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6eed5c29f13d5fe9db878aae68bc077c') in 0.005921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_embers4-add-[3.0].mat
+  artifactKey: Guid(c7ff8722b398f2548a03b55e21665fb4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_embers4-add-[3.0].mat using Guid(c7ff8722b398f2548a03b55e21665fb4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ea97a66c113a5c9651293dc2b8935bdc') in 0.005521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Scenes/TestScene.unity
+  artifactKey: Guid(4b38e0655da4e0746bfa3fd5a4f3f684) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/TestScene.unity using Guid(4b38e0655da4e0746bfa3fd5a4f3f684) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '046d508830b4f7618252514731b50780') in 0.004735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Scripts/ButtonSystem.cs
+  artifactKey: Guid(2e99e18c6a059e945a221a526ac67047) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/ButtonSystem.cs using Guid(2e99e18c6a059e945a221a526ac67047) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '405e884abb24cf907de738c0b1c3d756') in 0.006521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/AssetStore/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png
+  artifactKey: Guid(b8467ea5fbaf9ba42908de6411bd443d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png using Guid(b8467ea5fbaf9ba42908de6411bd443d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e9d2b26658a0c44f450a095612b4cef1') in 0.015799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Sprites/Icons/brokenGlass.svg
+  artifactKey: Guid(e0d273616a745b24ea8597f9fe1f3b41) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/Icons/brokenGlass.svg using Guid(e0d273616a745b24ea8597f9fe1f3b41) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '328b42497089a4122c53785a57397669') in 0.021923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Prefabs/UI/Joystick.prefab
+  artifactKey: Guid(b722e676a76de534ea597ffbe761d781) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/UI/Joystick.prefab using Guid(b722e676a76de534ea597ffbe761d781) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7973333fcd156a31780f271a34a44a41') in 0.006176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Sprites/Icons/infinity.svg
+  artifactKey: Guid(08957ec8b4821b44ba0823ea6c12cd75) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/Icons/infinity.svg using Guid(08957ec8b4821b44ba0823ea6c12cd75) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f9e3310aa35658bbc031f2487740b555') in 0.006198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Sprites/Icons/damage.svg
+  artifactKey: Guid(ea57c7bc5687d6d4dbd0943b88b936f2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/Icons/damage.svg using Guid(ea57c7bc5687d6d4dbd0943b88b936f2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7f00ac9bf6854af2ca7d9611a05e2263') in 0.007466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Sprites/Icons/range.svg
+  artifactKey: Guid(63f5bf4d4fc0352469eca8b6756ca367) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/Icons/range.svg using Guid(63f5bf4d4fc0352469eca8b6756ca367) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '00bac10f0b99efc81c6044161ce1685b') in 0.007839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Fonts/Demode SDF.asset
+  artifactKey: Guid(5d92cd97d7ea2af4795ee588e23d4492) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Fonts/Demode SDF.asset using Guid(5d92cd97d7ea2af4795ee588e23d4492) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b254fb5c59189d2183c4cc69000bf802') in 0.019874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Textures/Line.png
+  artifactKey: Guid(49808d3f9fd1750478d36981ff780555) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Textures/Line.png using Guid(49808d3f9fd1750478d36981ff780555) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8d81b8391ac703d51f9ffbce773f60d8') in 0.007526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0169a873f1223464350ad0247063ff04') in 0.006704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Sprites/mat_vfx-inf_particle_sprite_glowSphere2-add-[1.0].mat
+  artifactKey: Guid(9d9180249ad9eec40abab8b8e61dcc38) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Sprites/mat_vfx-inf_particle_sprite_glowSphere2-add-[1.0].mat using Guid(9d9180249ad9eec40abab8b8e61dcc38) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c9e301bc4e6d5e00f81dffe29812d20c') in 0.005152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/ScriptableObjects/Enemies/SmallFollowingCircle.asset
+  artifactKey: Guid(0a02324c6f8c4cc4f8191b5c8cb974d7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/ScriptableObjects/Enemies/SmallFollowingCircle.asset using Guid(0a02324c6f8c4cc4f8191b5c8cb974d7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9d2976844ea0ad71ea9d6625d4d354ec') in 0.006093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_blast5-add-[3.0].mat
+  artifactKey: Guid(5d0048951ad3b12499c52d8ae00fd83e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_blast5-add-[3.0].mat using Guid(5d0048951ad3b12499c52d8ae00fd83e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5c0e08544a4d551a0d7eaa922d811bd3') in 0.005023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/_Common/Textures/Grid.png
+  artifactKey: Guid(9622a8e20fa09de4ea7635bcb303645e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/_Common/Textures/Grid.png using Guid(9622a8e20fa09de4ea7635bcb303645e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ea0b6ead60cdfb047bdee320e14e3bbc') in 0.006054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sprites/Icons/wind.svg
+  artifactKey: Guid(b81eff6b8fac9ec40bf115d3d811fd41) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/Icons/wind.svg using Guid(b81eff6b8fac9ec40bf115d3d811fd41) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0a2a0b210701999d88669e14d0901cd0') in 0.007011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Scripts/Enemy/CombinedEnemies/EnemySpawner.cs
+  artifactKey: Guid(83a163ec2057df74096df9bb064282db) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Enemy/CombinedEnemies/EnemySpawner.cs using Guid(83a163ec2057df74096df9bb064282db) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f25f44ac4e120567ce0e8305b165c23c') in 0.004986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Sprites/Circle2.png
+  artifactKey: Guid(0037a103a3dfcb54ca3d3652ff1f8d7a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/Circle2.png using Guid(0037a103a3dfcb54ca3d3652ff1f8d7a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9dd8924a3148b85fb99e1f56b4c8b1ac') in 0.011579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_embers3-alpha-[2.0].mat
+  artifactKey: Guid(7093f6094558dfd428053b41bac9c426) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_embers3-alpha-[2.0].mat using Guid(7093f6094558dfd428053b41bac9c426) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '23e54098905bb06f29ae25da7b5f1d54') in 0.005574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1951d219148458c78971d9ed125de0be') in 0.036519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/AssetStore/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png
+  artifactKey: Guid(3bf6d9f920f7458448a390f80318ebe6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png using Guid(3bf6d9f920f7458448a390f80318ebe6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'af914f10252cf437e4d07a625e199b36') in 0.010203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Scenes/MenuTest.unity
+  artifactKey: Guid(c826b8656bb630f4387d849dfcb66ab6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/MenuTest.unity using Guid(c826b8656bb630f4387d849dfcb66ab6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '975de2de34bdc098ea9ce80c50265368') in 0.004520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Sprites/mat_vfx-inf_particle_sprite_fractal-add-[3.0].mat
+  artifactKey: Guid(57e116f5c9f60734696a2dc49a3930bc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Sprites/mat_vfx-inf_particle_sprite_fractal-add-[3.0].mat using Guid(57e116f5c9f60734696a2dc49a3930bc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '10a6eb4a8964c6b352d73e71f26bdcfc') in 0.019782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/LeanTween/Documentation/classes/LeanAudioOptions.html
+  artifactKey: Guid(ff952359765254c20b97874f5949c0d7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Documentation/classes/LeanAudioOptions.html using Guid(ff952359765254c20b97874f5949c0d7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '706b8b5edac2040f0161f57383e40e86') in 0.004284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/LeanTween/Framework/LeanSmooth.cs
+  artifactKey: Guid(1ca0f285af8dd4270bd759978223faad) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LeanTween/Framework/LeanSmooth.cs using Guid(1ca0f285af8dd4270bd759978223faad) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '27a195c7cd721804678a30ab61440ca3') in 0.004264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Scripts/Enemy/BaseEnemyStats.cs
+  artifactKey: Guid(6237e3ab45776f14882d2ef750e2a931) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Enemy/BaseEnemyStats.cs using Guid(6237e3ab45776f14882d2ef750e2a931) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8c28778e154016a70178061492a8bcdc') in 0.005986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Textures/Particles/Spritesheets/tex_vfx-inf_particle_spritesheet_explosion2.png
+  artifactKey: Guid(6b43b11466f0acb41a01562d832881f8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Textures/Particles/Spritesheets/tex_vfx-inf_particle_spritesheet_explosion2.png using Guid(6b43b11466f0acb41a01562d832881f8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd16dfed41d71de3d1ff0b875542164f0') in 0.006116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Sprites/mat_vfx-inf_particle_sprite_glowSphere3-alpha-[2.0].mat
+  artifactKey: Guid(244923ba54aecb44186d7fcb28e225e5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Sprites/mat_vfx-inf_particle_sprite_glowSphere3-alpha-[2.0].mat using Guid(244923ba54aecb44186d7fcb28e225e5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ef8afc14263f2473a396bdd7bb2b2cc8') in 0.007737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Sprites/mat_vfx-inf_particle_sprite_wisp2-alpha-[2.0].mat
+  artifactKey: Guid(f7527879e5fa10a49bc0f62ed17c4d24) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Sprites/mat_vfx-inf_particle_sprite_wisp2-alpha-[2.0].mat using Guid(f7527879e5fa10a49bc0f62ed17c4d24) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '92805b9175b67c7a4ccd81b63ec6fdf1') in 0.005894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_blast5-add-[2.0].mat
+  artifactKey: Guid(1512d25d54b13c74aa3422b04faf6da7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_blast5-add-[2.0].mat using Guid(1512d25d54b13c74aa3422b04faf6da7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9b6e44f5417a2b523ea98bc1bbac0b03') in 0.011353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_plasma-add-[2.0].mat
+  artifactKey: Guid(4f956bc4c35c76e419ec13cde7d3bd54) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_plasma-add-[2.0].mat using Guid(4f956bc4c35c76e419ec13cde7d3bd54) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '493b381fc590b8b724281f736cbe6832') in 0.006401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_explosion2-alpha-[2.0].mat
+  artifactKey: Guid(68668347f2105f4489e31621da46f263) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Materials/Particles/Spritesheets/mat_vfx-inf_particle_spritesheet_explosion2-alpha-[2.0].mat using Guid(68668347f2105f4489e31621da46f263) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7536bbd8b19267c919c30efc5aff92b7') in 0.006858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Textures/Particles/Spritesheets/tex_vfx-inf_particle_spritesheet_embers.png
+  artifactKey: Guid(d94cf732e36b7a4489ac459d96b4e846) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Textures/Particles/Spritesheets/tex_vfx-inf_particle_spritesheet_embers.png using Guid(d94cf732e36b7a4489ac459d96b4e846) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bd3920a157e695c788c7bc8a402d2b4d') in 0.006090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Prefabs/Player 1.prefab
+  artifactKey: Guid(69eef90976ce16642b3ebf34e18235f9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Player 1.prefab using Guid(69eef90976ce16642b3ebf34e18235f9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6e57f623e4ff16fb340f9645a9bb02aa') in 0.004947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Prefabs/Loop/pf_vfx-inf_psys_demo_loop_ancient.prefab
+  artifactKey: Guid(d5a011124e8d56f429a3d23c4420bdbd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/Inferno VFX/Prefabs/Loop/pf_vfx-inf_psys_demo_loop_ancient.prefab using Guid(d5a011124e8d56f429a3d23c4420bdbd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '38afdcde37efa9b20337847b90ebb63c') in 0.012858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/AssetStore/Mirza Beig/Particle Systems/_Common/Prefabs/Lights/pf_template-cmn_light_point_st[ns].prefab
+  artifactKey: Guid(9d3900a299993c5478fe493791f599f8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStore/Mirza Beig/Particle Systems/_Common/Prefabs/Lights/pf_template-cmn_light_point_st[ns].prefab using Guid(9d3900a299993c5478fe493791f599f8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c9652ba686a102ea301250a0485c5e00') in 0.006364 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
