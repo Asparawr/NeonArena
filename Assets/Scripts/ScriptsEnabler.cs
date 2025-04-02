@@ -12,4 +12,11 @@ public class ScriptsEnabler : MonoBehaviour
             (GetComponent(script) as MonoBehaviour).enabled = true;
         }
     }
+    public void DisableScripts()
+    {
+        foreach (string script in scriptsToEnable)
+        {
+            (GetComponent(script) as MonoBehaviour).enabled = false;
+        }
+    }
 }

@@ -18,7 +18,7 @@ namespace MirzaBeig
         // =================================	
         // Classes.
         // =================================
-        
+
         [RequireComponent(typeof(Light))]
 
         public class AnimatedLight : MonoBehaviour

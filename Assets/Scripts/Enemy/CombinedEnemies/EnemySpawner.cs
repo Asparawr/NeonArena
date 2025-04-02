@@ -5,6 +5,12 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     public List<EnemySpawnerPoint> spawnerPoints;
+    EnemyStats enemyStats;
+    public Transform main;
+    private void Start()
+    {
+        enemyStats = GetComponent<EnemyStats>();
+    }
 
     void Update()
     {
@@ -17,6 +23,11 @@ public class EnemySpawner : MonoBehaviour
                 {
                     var newEnemy = Instantiate(spawnerPoint.EnemyToSpawn, spawnerPoint.targetTransform.position, Quaternion.Euler(0, 0, spawnerPoint.degree));
                     newEnemy.GetComponent<Rigidbody2D>().velocity = spawnerPoint.velocity;
+                    newEnemy.GetComponent<EnemyStats>().Setup(enemyStats.difficultyMod, enemyStats.borderPosX, enemyStats.borderPosY);
+                    if (main != null)
+                        newEnemy.transform.parent = main.parent;
+                    else
+                        newEnemy.transform.parent = transform.parent;
                     spawnerPoint.timer = 0;
                 }
             }

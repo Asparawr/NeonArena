@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c2dd4a8a0de8140b640e2bd814275c, type: 3}
+  m_Name: SquaresMap
+  m_EditorClassIdentifier: 
+  backgroundID: 1
+  mapName: Voracious Squares
+  audioName: S4
+  enemies:
+  - enemy:
+    - {fileID: 7263051254795044352, guid: 16c34742ba93c684fbe4f0de4524e83e, type: 3}
+    - {fileID: 8395852766172039047, guid: f5273cadf8d9da344ad2276336049b6b, type: 3}
+    - {fileID: 1674388369799957815, guid: 1c0d0994e672dcd4b9bd72c07110fcc6, type: 3}
+    - {fileID: 939307309026194412, guid: fc22a7db231b8bf4187acd0f7f6b1556, type: 3}
+  - enemy:
+    - {fileID: 7807803464785821848, guid: 525cd7450cacd61459d4b9e273163239, type: 3}
+    - {fileID: 2578608043854925566, guid: 8fe739450df3607469fcd53a5f648b1e, type: 3}
+    - {fileID: 6090994067968303323, guid: 9f3acbb3946d57e488bb4c3e6dfbc349, type: 3}
+    - {fileID: 9074952183172678213, guid: 65c4dc530b5878e40a50694dfa7095cf, type: 3}
+    - {fileID: 6668352430755459513, guid: b60c68cf1eea6a245b59ea920857a2d4, type: 3}
+  - enemy:
+    - {fileID: 863860147080318079, guid: ed40e1c29ae505c46b653b6eea8b9c29, type: 3}
+    - {fileID: 8289311030975820991, guid: a44b0fad26c845f46b055e84cb8463a0, type: 3}
+    - {fileID: 2383857444407757241, guid: c90f5e912bb553b43a50b664572eb306, type: 3}
+    - {fileID: 3389504031204148471, guid: 00cd7b7aadad7b04995b3eec34c316b5, type: 3}
+  - enemy:
+    - {fileID: 2481725193416164328, guid: bbddb6a1c1c80d643b6556ab35a7793c, type: 3}
+    - {fileID: 5710959338530502854, guid: f48116c707d497c49b678e85e14bb29a, type: 3}
+    - {fileID: 9137132588999166652, guid: 3d5f35a270ce547409d08138c7cc2816, type: 3}
+    - {fileID: 789608671947102413, guid: b4a3ef6d0d080f240aa2a8dd40e88b2e, type: 3}
+  - enemy:
+    - {fileID: 9064910413081597515, guid: 6b7b79a5222acbf46a51bfe3252fd3f1, type: 3}
+    - {fileID: 7264181782251636621, guid: 6b17467746a3cc146a0c491d0500478a, type: 3}
+    - {fileID: 7685671046591777527, guid: de199fc0919f8c146bf5aa9b8011b111, type: 3}
+  bosses:
+  - boss:
+    - {fileID: 8642878933925690149, guid: ec0f2c3dfdb7634478de5d0a41cc85aa, type: 3}
+  - boss:
+    - {fileID: 4693667039209365222, guid: ef031e364ae7f664a82ca9ed9c250639, type: 3}
+  - boss:
+    - {fileID: 769417232973159911, guid: 58ff66f31a316584296ea2aaafbb3ac6, type: 3}
+  - boss:
+    - {fileID: 7689378588360927083, guid: 7be1f178a16587043bc2d2fb2d02a52b, type: 3}
+  - boss:
+    - {fileID: 6001199909756472950, guid: 93765aa26517b194b90d950fd17a9a1e, type: 3}

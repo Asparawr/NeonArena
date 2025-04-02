@@ -6,10 +6,10 @@ public class BaseEnemyStats : ScriptableObject
 {
     public float health;
     public float damage;
-    public float bulletSpeed;
+    public float projectileSpeed;
     public float rateOfFire;
     public float movementSpeed;
     public float range; // in seconds
-
-    public float price;
+    public float spawnPointX;
+    public float spawnPointY;
 }

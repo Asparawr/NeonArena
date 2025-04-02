@@ -26,6 +26,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 387039265803447842}
   m_Father: {fileID: 387039265504530699}
@@ -64,6 +65,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.4359999, y: 0.013000011, z: 0}
   m_LocalScale: {x: 0.5565999, y: 0.55660003, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 387039265803447842}
   m_RootOrder: 2
@@ -150,6 +152,7 @@ PolygonCollider2D:
       - {x: -0.33097386, y: -0.41656536}
       - {x: 0.46115226, y: 0.005020365}
       - {x: 0.47410208, y: 0.046776384}
+  m_UseDelaunayMesh: 0
 --- !u!114 &387039264675862992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -269,6 +272,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.93703306, y: -1.6338407, z: -2.1767604}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 387039264495717331}
   m_Father: {fileID: 0}
@@ -286,13 +290,94 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e534d015735f7ee4892518588d44e2bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapon: {fileID: 387039264675862996}
-  joystickObject: {fileID: 0}
-  player: {fileID: 387039265803447843}
+  moveJoystickObject: {fileID: 0}
+  shootJoystickObject: {fileID: 0}
+  playerModel: {fileID: 0}
+  gameManager: {fileID: 0}
+  borderColliderScaler: {fileID: 0}
+  playerStats:
+    money: 0
+    moneyMod: 1
+    movementSpeed: 0.5
+    currentHealth: 1
+    maxHealth: 1
+    bulletSpeed: 1
+    bulletSpeedMod: 1
+    damage: 1
+    fireRate: 1
+    range: 1
+    bulletScale: 1
+    playerScale: 1
+    damageImmunity: 0.5
+    critChance: 0
+    critDamage: 2
+    warriorAttack: 0
+    bulletPenetration: 0
+    split: 0
+    slowAura: 1
+    burnAura: 0
+    slow: 1
+    burnDamage: 0
+    poisonDamage: 0
+    homing: 0
+    stunChance: 0
+    stun: 0.5
+    shieldTimerMax: 20
+    shieldActive: 0
+    vampirysm: 0
+    bounce: 0
+    spread: 0
+    threeShotChance: 0
+    fiveShotChance: 0
+    mineChance: 0
+    eightShotChance: 0
+    backShotChance: 0
+    startingSpeed: 0
+    knockBack: 0
+    attackKillBoost: 0
+    fireRateKillBoost: 1
+    attackLowBoost: 0
+    fireRateLowBoost: 1
+    addProjectileChance: 0
+    retaliationDamage: 0
+    projectileShieldSize: 0
+    projectileNegateChance: 0
+    armor: 0
+    lowHealthThreshold: 0.3
+    orbitalDamage: 0
+    orbitalCount: 1
+    orbitalSpeed: 20
+    fireballChance: 0
+    fireballScale: 1.5
+    slowDebuff: 1
+    burnDebuff: 1
+    poisonDebuff: 1
+    rareChance: 0
+    epicChance: 0
+    legendaryChance: 0
+    respawnCount: 0
+    adRespawned: 0
+  slowSpeedMod: 1
   rotationSpeed: 4
-  rotationGroundSlow: 1
-  movementSpeed: 0.01
-  changed: 0
+  bulletSpawner: {fileID: 0}
+  playerProjectile: {fileID: 0}
+  healthController: {fileID: 0}
+  damageImmunityTimer: 0
+  damagePopupPrefab: {fileID: 0}
+  healPopupPrefab: {fileID: 0}
+  slowAura: {fileID: 0}
+  burnAura: {fileID: 0}
+  orbitals: {fileID: 0}
+  orbitalPrefab: {fileID: 0}
+  fireballPrefab: {fileID: 0}
+  shield: {fileID: 0}
+  shieldTimer: 0
+  debuffHandler: {fileID: 0}
+  invurnerable: 0
+  onKillTimerMax: 5
+  onKillTimer: 0
+  addProjectilePrefab: {fileID: 0}
+  projectileShield: {fileID: 0}
 --- !u!1 &387039265622495920
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,6 +405,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 387039265803447842}
   m_RootOrder: 0
@@ -406,6 +492,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 387039265622495923}
   - {fileID: 387039266223182263}
@@ -520,6 +607,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.793, y: 0.02699995, z: 0}
   m_LocalScale: {x: 2.7522225, y: 0.16504638, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 387039265803447842}
   m_RootOrder: 1

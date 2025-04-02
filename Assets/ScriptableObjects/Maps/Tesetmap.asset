@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c2dd4a8a0de8140b640e2bd814275c, type: 3}
+  m_Name: Tesetmap
+  m_EditorClassIdentifier: 
+  backgroundID: 4
+  mapName: TEEEEEEEEEESt
+  audioName: S1
+  enemies: []
+  bosses:
+  - boss:
+    - {fileID: 6001199909756472950, guid: 93765aa26517b194b90d950fd17a9a1e, type: 3}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 897ebc1cd5700e749b0d56237caa565d, type: 3}
+  m_Name: SlowAuraEpic
+  m_EditorClassIdentifier: 
+  iconSprite: {fileID: 21300000, guid: 4f51c6d8ebea0684fb09200ed6988486, type: 3}
+  rarity: 2
+  stackable: 1
+  movementSpeed: 0
+  maxHealth: 0
+  bulletSpeed: 0
+  damage: 0
+  fireRate: 0
+  size: 0
+  range: 0
+  bulletScale: 0
+  moneyMod: 0
+  playerScale: 0
+  respawnCount: 0
+  bulletPenetration: 0
+  damageImmunity: 0
+  rareChance: 0
+  epicChance: 0
+  legendaryChance: 0
+  split: 0
+  slowAura: 0.2
+  slow: 0
+  burnAura: 0
+  burn: 0
+  homing: 0
+  stun: 0
+  orbitalCount: 0
+  orbitalDamage: 0
+  orbitalSpeed: 0
+  fireballChance: 0
+  fireballScale: 0

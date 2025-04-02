@@ -2,87 +2,89 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerStats : MonoBehaviour
+[System.Serializable]
+public class PlayerStats
 {
-    // ui stats updates
-    public GameObject UIHealth;
-
-    private UIHealthController healthController;
 
     // base stats and % mods
-    public int money = 0;
+    public float money = 0;
+    public float moneyMod = 1;
     public float movementSpeed = 1;
-    public float movementSpeedMod = 1;
 
     public float currentHealth = 1;
     public float maxHealth = 1;
-    public float maxHealthMod = 1;
 
     public float bulletSpeed = 1;
     public float bulletSpeedMod = 1;
 
     public float damage = 1;
-    public float damageMod = 1;
-
     public float fireRate = 1;
-    public float fireRateMod = 1;
-
     public float range = 1; //in seconds
-    public float rangeMod = 1;
+    public float bulletScale = 1;
+    public float playerScale = 1;
+    public float damageImmunity = 0.5f;
+    public float critChance = 0;
+    public float critDamage = 2;
 
-    public float moneyMod = 1;
+    //effects variables
+    public bool warriorAttack = false;
+    public int bulletPenetration = 0;
+    public float split = 0;
+    public float slowAura = 1;
+    public float burnAura = 0;
+    public float slow = 1;
+    public float burnDamage = 0;
+    public float poisonDamage = 0;
+    public float homing = 0;
+    public float stunChance = 0;
+    public float stun = .5f; // in seconds
+    public float shieldTimerMax = 20;
+    public bool shieldActive = false;
 
-    public float bulletScaleMod = 1;
+    //ranger
+    public float vampirysm = 0;
+    public float bounce = 0;
+    public float spread = 0;
+    public float threeShotChance = 0;
+    public float fiveShotChance = 0;
+    public float mineChance = 0;
+    public float eightShotChance = 0;
+    public float backShotChance = 0;
+    public float startingSpeed = 0;
 
-    //script list to activate on bullet on spawn
-    public List<string> bulletModList;
+    //warrior
+    public float knockBack = 0;
+    public float attackKillBoost = 0;
+    public float fireRateKillBoost = 1;
+    public float attackLowBoost = 0;
+    public float fireRateLowBoost = 1;
+    public float addProjectileChance = 0;
+    public float retaliationDamage = 0;
+    public float projectileShieldSize = 0;
+    public float projectileNegateChance = 0;
+    public float armor = 0;
+    public float lowHealthThreshold = 0.3f;
 
-    // damage taking timers
-    public float damageImmunity;
-    public float damageImmunityTimer;
+    // orbitals
+    public float orbitalDamage = 0;
+    public int orbitalCount = 1;
+    public float orbitalSpeed = 20;
 
-    private void Start()
-    {
-        healthController = UIHealth.GetComponent<UIHealthController>();
-    }
-    void Update()
-    {
-        damageImmunityTimer += Time.deltaTime;
-    }
+    //chance based
+    public float fireballChance = 0;
+    public float fireballScale = 1.5f;
 
-    public void AddItem(ShopItem item)
-    {
-        movementSpeedMod += item.movementSpeed;
-        maxHealthMod += item.maxHealth;
-        bulletSpeedMod += item.bulletSpeed;
-        damageMod += item.damage;
-        fireRateMod += item.fireRate;
-        rangeMod += item.range;
-        bulletScaleMod += item.bulletScale;
+    //debuffs on player
+    public float slowDebuff = 1;
+    public float burnDebuff = 1;
+    public float poisonDebuff = 1;
 
-        foreach (string modName in item.bulletModList)
-        {
-            bulletModList.Add(modName);
-        }
-    }
 
-    public void UpdateHealth(float value)
-    {
-        currentHealth += value;
-        if (currentHealth > maxHealth)
-            currentHealth = maxHealth;
-        healthController.UpdateHealth(currentHealth / maxHealth * maxHealthMod);
-    }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy"))
-        {
-            if (damageImmunityTimer > damageImmunity)
-            {
-                damageImmunityTimer = 0;
-                UpdateHealth(-collision.gameObject.GetComponent<EnemyStats>().GetDamage());
-            }
-        }
-    }
+    //item rarity chances
+    public float rareChance = 0;
+    public float epicChance = 0;
+    public float legendaryChance = 0;
+    public int respawnCount = 0;
+    public bool adRespawned = false;
 }

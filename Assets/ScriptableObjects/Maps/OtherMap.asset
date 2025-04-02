@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c2dd4a8a0de8140b640e2bd814275c, type: 3}
+  m_Name: OtherMap
+  m_EditorClassIdentifier: 
+  backgroundID: 3
+  mapName: Freaky Shapes
+  audioName: S3
+  enemies:
+  - enemy:
+    - {fileID: 45657102423123665, guid: 05f0c818ead27a24bae23214e6c129f6, type: 3}
+    - {fileID: 4999236075562483980, guid: 902be86d8f3caaf4c83dbecbddea3d90, type: 3}
+    - {fileID: 8151430798032304332, guid: 44ad01e57fcdbae44b7a250862c72f99, type: 3}
+    - {fileID: 6131182844718739101, guid: 0216a57429fdce84e8effd40c928d813, type: 3}
+    - {fileID: 9112256474036200905, guid: 2daf00cb267430844a68afc52063a199, type: 3}
+    - {fileID: 5130970256158203639, guid: 83033af7487777c4498028bdd169f87d, type: 3}
+  - enemy:
+    - {fileID: 912475023842599377, guid: 9951817299083b345860cb21d201809c, type: 3}
+    - {fileID: 7817384877284493499, guid: 7867bda066e3c8a498e0ecb6e60f56c6, type: 3}
+    - {fileID: 3112687879399585181, guid: 29437330525f4ba46b0404c5774ce516, type: 3}
+    - {fileID: 6561033776211256046, guid: e535d2f0047155344a9687a69d5fa218, type: 3}
+  - enemy:
+    - {fileID: 7102768077757973624, guid: f8a5b6137376bc046a591f9b1c0985a6, type: 3}
+    - {fileID: 9023041994941560219, guid: 598b18af3646efe43be7a634a533b5c4, type: 3}
+    - {fileID: 6414885362041310163, guid: 1cb3dffd0973eda48a51a77b0bb7a060, type: 3}
+    - {fileID: 4450589055225760855, guid: 634c8f6f75fecb3488b94cd6fd0c5fd3, type: 3}
+  - enemy:
+    - {fileID: 749981866775227735, guid: fcf4e81740d8bed4f8d7d94b7197ba75, type: 3}
+    - {fileID: 4212668268524794936, guid: c410937318ffa0c4abcc1b9960b6ff8e, type: 3}
+    - {fileID: 1878639955026921876, guid: 40f95e79d4a77ef40985a3d51856bd4b, type: 3}
+    - {fileID: 5474530922042224593, guid: a1133a9718c8f8b4184161868e1ab441, type: 3}
+  - enemy:
+    - {fileID: 6059333079858116525, guid: 7d9bcfb41568e5f4981ca75d2ad477a4, type: 3}
+    - {fileID: 7940674441404984089, guid: 9265eff62649c1b4b994c428f906bae9, type: 3}
+    - {fileID: 6395804303246870314, guid: 107c0ac1b53495b4193aced47437981d, type: 3}
+  bosses:
+  - boss:
+    - {fileID: 1885430929234632038, guid: b997d4cd3a67fee43a3f3ac867590448, type: 3}
+  - boss:
+    - {fileID: 5206939793588786217, guid: c0831d5e99e761d4e85e58a51b333e85, type: 3}
+  - boss:
+    - {fileID: 6301442776558526561, guid: 4cad57b7139624a43a1069bde76e495f, type: 3}
+  - boss:
+    - {fileID: 8602734292166997766, guid: 65585be4f73bf454a8d85bcd905482e1, type: 3}
+  - boss:
+    - {fileID: 8348143968102294162, guid: 0c9dfe9b3b7c4b541a3efc9307c1f7fb, type: 3}

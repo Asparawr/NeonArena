@@ -1,7 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Search;
+
 using UnityEngine;
 
 public class BasicEnemy : MonoBehaviour
@@ -17,7 +14,7 @@ public class BasicEnemy : MonoBehaviour
     {
         player = GameObject.Find("Player");
     }
-    
+
     void Update()
     {
         time += Time.deltaTime;
@@ -44,6 +41,6 @@ public class BasicEnemy : MonoBehaviour
     private void Shoot()
     {
         var bullet = Instantiate(bulletPrefab, bulletSpawner.transform.position, transform.rotation);
-        bullet.GetComponent<Rigidbody2D>().velocity = transform.up * stats.bulletSpeed;
+        bullet.GetComponent<Rigidbody2D>().velocity = transform.up * stats.projectileSpeed;
     }
 }

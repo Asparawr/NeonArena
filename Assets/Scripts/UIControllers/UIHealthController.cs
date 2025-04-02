@@ -22,4 +22,14 @@ public class UIHealthController : MonoBehaviour
         rightSlider.value = value;
         leftSlider.value = value;
     }
+    public void ShowBar()
+    {
+        rightHealthBar.SetActive(true);
+        leftHealthBar.SetActive(true);
+    }
+    public void HideBar()
+    {
+        rightHealthBar.SetActive(false);
+        leftHealthBar.SetActive(false);
+    }
 }

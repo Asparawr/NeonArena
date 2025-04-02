@@ -23,8 +23,8 @@ public class BorderColliderScaler : MonoBehaviour
     void ScaleColliders()
     {
         // get current scale
-        ScaleX = spriteRenderer.size.x/2- BorderOffset;
-        ScaleY = spriteRenderer.size.y/2- BorderOffset;
+        ScaleX = spriteRenderer.size.x / 2 - BorderOffset;
+        ScaleY = spriteRenderer.size.y / 2 - BorderOffset;
 
         // set edge collider points to scale
         colliderPoints = edgeCollider.points;

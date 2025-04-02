@@ -5,16 +5,20 @@ using UnityEngine;
 public class EnemyMoveTowards : MonoBehaviour
 {
     private EnemyStats enemyStats;
-    private new Rigidbody2D rigidbody;
-
+    private Rigidbody2D rb;
+    public float stopRange = 0;
     void Start()
     {
         enemyStats = GetComponent<EnemyStats>();
-        rigidbody = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, enemyStats.player.transform.position, enemyStats.baseStats.movementSpeed * Time.deltaTime);
+        //gradually change velocity towards player
+        if (Vector2.Distance(transform.position, enemyStats.player.transform.position) > stopRange)
+            rb.velocity = Vector2.MoveTowards(rb.velocity, (enemyStats.speedMod * enemyStats.baseStats.movementSpeed * (enemyStats.player.transform.position - transform.position).normalized), enemyStats.speedMod * enemyStats.baseStats.movementSpeed * Time.deltaTime);
+
+        //transform.position = Vector2.MoveTowards(transform.position, enemyStats.player.transform.position, enemyStats.speedMod * enemyStats.baseStats.movementSpeed * Time.deltaTime);
     }
 }

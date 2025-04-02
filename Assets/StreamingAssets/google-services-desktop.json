@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "402202043794",
+    "project_id": "arena-c8f8f",
+    "storage_bucket": "arena-c8f8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402202043794:android:52f5c4d7b0adf0e0958d4b",
+        "android_client_info": {
+          "package_name": "com.NeonArena.NeonArena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402202043794-nc87qi4p1lecnt3uq0tk49g14t58406f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFpWSzFc-aVIWNvIszTmAj1lZOd4ml4VI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402202043794-nc87qi4p1lecnt3uq0tk49g14t58406f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3143434849381571411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3143434849381571409}
+  - component: {fileID: 3143434849381571408}
+  - component: {fileID: 65910773}
+  m_Layer: 0
+  m_Name: SaveManager
+  m_TagString: SaveManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3143434849381571409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3143434849381571411}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.469351, y: -8.733546, z: 208.9148}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3143434849381571408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3143434849381571411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 395071290f74c5f449af3a893b2c7e6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state:
+    coins: 100
+    premiumCoins: 50
+    chests: 1
+    isGameStarted: 0
+    playerClass: 0
+    fillAllItems: 1
+  sceneState:
+    mapId: 0
+    mapDifficulty: 0
+    difficulty: 0
+    enemyValue: 0
+    turn: 0
+  classItems:
+  - {fileID: 11400000, guid: 50d7aac736b7d8c4c8632846c6ba410e, type: 2}
+  - {fileID: 11400000, guid: f6e2851f364c985479d76312a6f1ed5f, type: 2}
+  - {fileID: 11400000, guid: 1093f26dc17876c4a8748c74640246fb, type: 2}
+  classCount: 2
+--- !u!114 &65910773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3143434849381571411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a3df325ed0361d4aaac7cc3b3cba721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
